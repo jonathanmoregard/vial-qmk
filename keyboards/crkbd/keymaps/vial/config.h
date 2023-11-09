@@ -26,6 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 #define TAPPING_TERM 220
 #define VIAL_COMBO_ENTRIES 30
+#define VIAL_KEY_OVERRIDE_ENTRIES 10
 
 //#define USE_MATRIX_I2C
 #ifdef KEYBOARD_crkbd_rev1_legacy
