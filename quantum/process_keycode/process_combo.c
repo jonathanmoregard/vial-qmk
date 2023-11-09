@@ -66,7 +66,7 @@ __attribute__((weak)) bool get_combo_must_hold(uint16_t index, combo_t *combo) {
 
 #ifdef COMBO_MUST_TAP_PER_COMBO
 __attribute__((weak)) bool get_combo_must_tap(uint16_t index, combo_t *combo) {
-    return false;
+    return true;
 }
 #endif
 
