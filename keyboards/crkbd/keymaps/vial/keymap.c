@@ -175,3 +175,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   return true;
 }
 #endif // OLED_ENABLE
+
+bool get_combo_must_tap(uint16_t index, combo_t *combo) {
+    return true;
+}
